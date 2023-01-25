@@ -1,0 +1,45 @@
+.wrapp-trend {
+    background-image: url(https://mobirise.com/extensions/floram4/floral-studio/assets/images/background1.jpg);
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+
+    .trend-article {
+        padding: 10px 50px;
+
+        .sort {
+            margin-top: 10px;
+            padding: 10px 40px;
+            background: #25715e;
+            color: #222;
+            border: none;
+            color: white;
+
+        }
+    }
+
+    .card-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+
+        .card-item {
+
+            width: 33%;
+            padding: 30px;
+
+        }
+
+        .trend-btn {
+            margin-top: 10px;
+            padding: 10px 45px;
+            background: #25715e;
+            color: #222;
+            border: none;
+
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+.event-wrapper{
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    gap: 50px;
+    background-image: url(https://mobirise.com/extensions/floram4/floral-studio/assets/images/background1.jpg);
+    .event-title{
+        text-align: center;
+        color: #25715e;
+        font-size: 25px;
+
+
+    }
+    .eventCard-wrapper{
+        display: flex;
+        gap: 50px;
+        .eventCard{
+            color: #25715e;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            background-color: #fef1e6;
+            text-align: center;
+            border: 1px solid #25715e;
+            padding: 80px 60px;
+            font-size: 20px;
+            .price{
+font-size: 25px;
+font-size: 700;
+            }
+            h4{
+
+            }
+            p{
+                width: 250px;
+            }
+            button{
+                background-color: #d8e3d5 ;
+                border: none;
+                width: 100px;
+                padding: 10px ;
+            }
+
+        }
+    }
+
+}

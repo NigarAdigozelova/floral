@@ -1,0 +1,62 @@
+.footer{
+    background-color: #e0ecdc;
+    padding: 100px 50px;
+    .footer-wrapper{
+        display: flex;
+        gap: 100px;
+        justify-content: center;
+       
+        li{
+            list-style-type: none;
+        }
+
+    }
+    .email{
+        input{
+            width: 300px;
+            border: none;
+            border-bottom: 1px solid #0c5b47 !important;
+            background-color: transparent;
+        }
+        button{
+            padding: 10px;
+            width: 80px;
+            border: none;
+            background-color: #d8e3d5 ;
+
+        }
+
+    }
+    .links{
+        display: flex;
+        gap: 30px;
+       
+        .left-links{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-style: italic;
+            .about{
+                font-size: 25px;
+                font-weight: 400;
+            }
+            
+
+        }
+         .right-links{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .about{
+                font-size: 25px;
+                font-weight: 400;
+            }
+        }
+
+    }
+    .follow{
+        font-size: 25px;
+        font-weight: 400;
+    }
+    
+}

@@ -60,7 +60,7 @@ const FlowerPricing = () => {
 
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="div">
-                        <img src={products.image} alt="" />
+                        <img style={{width:"100%"}} src={products.image} alt="" />
 
                       </Typography>
                       <Typography gutterBottom variant="h5" component="div">
